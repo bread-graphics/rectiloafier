@@ -1,0 +1,12 @@
+[package]
+name = "rectiloafier"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bentley-ottmann = { path = "../bentley-ottmann", default-features = false }
+
+[dependencies.geometry]
+package = "chalkboard-geometry"
+path = "../chalkboard/chalkboard-geometry"
+default-features = false
